@@ -83,3 +83,8 @@ results = parser.result(format='json')[0]
 result = json.loads(results)
 
 print(result)
+
+***RESULT***
+[appadmin@ryugbz01 Nokia]$ python3 showRouterBgpSummary.py
+[{'BGP_Summary': [{'AS': '65000', 'Connection_Type': 'IPv4', 'Connection_Type2': 'VpnIPv4', 'Neighbor': '10.10.10.121', 'PktRcvd': '5588', 'PktSent': '5590', 'date': '01d22h31m'}, {'AS': '65000', 'Connection_Type': 'IPv4', 'Neighbor': '10.10.10.125', 'PktRcvd': '1111', 'date': '01d11h11m'}]}]
+
